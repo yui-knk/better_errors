@@ -7,6 +7,8 @@ notifications:
     # this webhook is sent.
     # https://coveralls.zendesk.com/hc/en-us/articles/203484329-Parallel-Build-Webhook
     - secure: "YnHYbTq51ySistjvOxsuNhyg4GLuUffEJstTYeGYXiBF7HG5h43IVYo8KNuLzwkgsOYBcNo+YMdQX7qCqJffSbhsr1FZRSzBmjFFxcyD4hu+ukM2theZ4mePVAZiePscYvQPRNY4hIb4d3egStJEytkalDhB3sOebF57tIaCssg="
+before_install:
+  - gem update --system
 rvm:
   - 2.5.0
   - ruby-head
